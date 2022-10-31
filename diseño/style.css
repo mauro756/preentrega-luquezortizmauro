@@ -1,4 +1,4 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -136,43 +136,63 @@ section {
 
 }
 
-    
+    /*pie-de-pagina*/
    
-.pie__page {
-    display:inline-block;
-    background-color: #777;  
+.pie-pagina {
     width: 100%;
-    height: 200px;
-    box-sizing: border-box;
-    color: bisque;
-    position: relative;
-  }
-
-.redes__1 {
-    display: block;
-    font-size: 17px;
-    float: left;
+    background-color: #777;
     
+
 }
 
-.copy {
-    margin-left: 200px;
+.pie-pagina .clase-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1 fr );
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .clase-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .clase-1 .box figure img {
     width: 250px;
-    height: 200px;
-    color: black;
+}
+
+.pie-pagina .clase-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .clase-1 .box p {
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .clase-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #677;
     text-align: center;
-    float: left;
-    ;
-    
+    transition: all 1s ease;
 
 }
 
-.mapa {
-    
-    float: right;
+.pie-pagina .clase-1 .red-social a:hover {
+    color: #6a886c;
+
 }
-
-
-
-
-    
