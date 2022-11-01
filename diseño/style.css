@@ -1,4 +1,4 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -141,6 +141,7 @@ section {
 .pie-pagina {
     width: 100%;
     background-color: #777;
+   
     
 
 }
@@ -150,9 +151,9 @@ section {
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1 fr );
-    grid-gap: 50px;
-    padding: 45px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 250px;
+    padding: 40px 0px;
 }
 
 .pie-pagina .clase-1 .box figure {
@@ -164,7 +165,7 @@ section {
 }
 
 .pie-pagina .clase-1 .box figure img {
-    width: 250px;
+    width: 150px;
 }
 
 .pie-pagina .clase-1 .box h2 {
@@ -175,7 +176,7 @@ section {
 
 .pie-pagina .clase-1 .box p {
     color: antiquewhite;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .pie-pagina .clase-1 .red-social a {
