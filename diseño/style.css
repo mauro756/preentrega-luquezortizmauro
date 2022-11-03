@@ -8,6 +8,10 @@
     
 }
 
+body {
+    background-color: #d1eed3;
+}
+
 .header {
     background-color: #768577;
     display: flex;
@@ -34,6 +38,9 @@
     list-style: none;
 
 }
+.nav-links-resp {
+    display: none;
+}
 
 .header .nav-links li {
     display: inline-block;
@@ -53,6 +60,7 @@
     color: 111;
 }
 
+
 .header .btn button{
     font-weight: 800;
     color: #333;
@@ -69,87 +77,43 @@
     transform: scale(1.1);
 }
 
+ 
+
 .container-carousel img{
     width: 80%;
     height: 600px;
 
 }
 
-.height--img {
-    
-    height: 600px;
-}
-
-
 
 h1 {
-    width: 70%;
-    background-color: #6a886c;
+    width: 100%;
+    background-color: #768577;
     text-align: center;
-
 }
 
-.productos  {
-    
-    background-color: #6a886c;
-    width: 70%;
-    float: left;
-
-}
-
-.ellas {
-   
-    margin: 10px;
-    width: 350px;
-    height:  400px;
-    box-sizing: border-box;
-    float: left;
-    
-}
-
-.ellos {
-    
-    margin: 10px;
-    width: 350px;
+.col-ms-12 col-md-6 col-lg-6 {
+    width: 400px;
     height: 400px;
-    box-sizing: border-box;
-    float: left;
 }
 
-
-aside { 
-       
-    display: inline;
-    box-sizing: border-box;
-   
- 
-
-}
-aside p {
-    font-size: 15px;
-    font-family: cursive;
+h2 {
     text-align: center;
-}
-h2{
-    font-size: 35px;
-    text-align: center;
-    margin-top: 15px;
+    background-color: #768577;
 }
 
-h3{
-    font-size: 25px;
+.aside-img {
+    width: 500px;
+    height: 450px;
 }
 
-section {
-    text-align: center;
-    padding: 25px;
+.img-tam {
+    width: 400px;
+    height: 350px;
 }
-.Button {
-    
-    border: 1px solid aqua;
-    text-align: center;
 
-}
+
+
 
     /*pie-de-pagina*/
    
@@ -221,10 +185,18 @@ section {
 }
 @media screen and (max-width:800px){
     .pie-pagina .clase-1 {
-        width: 90%;
+        width: 900%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 100px;
+        grid-gap: 50px;
         padding: 20px 0px;
+       
     }
+}
+
+/*hoja-servicios*/
+
+.img-meraki {
+    width: 400px;
+    height: 400px;
 }
