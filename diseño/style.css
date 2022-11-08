@@ -8,11 +8,14 @@
     
 }
 
+/* navbar*/
+
 body {
     background-color: #d1eed3;
 }
 
 .header {
+
     background-color: #768577;
     display: flex;
     justify-content: space-around;
@@ -21,10 +24,14 @@ body {
     padding: 5px 10px;
 
 }
+.nav-responsive {
+    display: none;
+}
 
 .header .logo img {
-    height: 95px;
-    width: auto;
+    height: 85px;
+    width: 75px;
+    
     transition: all 1.5s;
     
 }
@@ -38,9 +45,7 @@ body {
     list-style: none;
 
 }
-.nav-links-resp {
-    display: none;
-}
+
 
 .header .nav-links li {
     display: inline-block;
@@ -75,9 +80,35 @@ body {
 }
 .header .btn button:hover{
     transform: scale(1.1);
+
+}
+.icono {
+    float: right;
+}
+        
+
+    
+@media only screen and (max-width:500px) {
+    
+    .nav-links {
+        display: none;
+    }
+    .nav-responsive {
+        display:block;
+        list-style: none;
+        padding-right: 5px;
+    
+    }
+    .header .btn {
+        display:none;
+    }
+
 }
 
- 
+    
+
+
+ /*Carousel*/
 
 .container-carousel img{
     width: 80%;
@@ -183,9 +214,9 @@ h2 {
     text-align: center;
     color: antiquewhite;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:500px){
     .pie-pagina .clase-1 {
-        width: 900%;
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;

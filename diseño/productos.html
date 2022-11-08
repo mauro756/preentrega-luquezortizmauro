@@ -9,20 +9,29 @@
     <title>Fratello&Meraki</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-          <a href="index.html"><img src="imagenes/Logo.jpeg" alt=""></a>
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="conocenos.html">Conocenos</a></li>
-                <li><a href="contactos.html">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagenes/Logo.jpeg" height="90" alt="Fratello">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="productos.html" class="nav-item nav-link">Productos</a>
+                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
+                        <a href="contactos.html" class="nav-item nav-link">Contactos</a>
+                        <a href="conocenos.html" class="nav-item nav-link">Conocenos</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Registrate</a>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <a href="" class="btn"><button>Inicio session</button></a>
     </header>
     <main>
         <h1>Fratello, fragancias tanto de hombre como de mujer.</h1>
@@ -31,32 +40,98 @@
                 <h2>Para ellos y ellas</h2>
                 <div class="col">
                     <img class="img-tam" src="marcas/DG.jpg" alt="D&G">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
                 </div>
                 <div class="col">
                     <img class="img-tam" src="marcas/h_hayari-paris-logo_15.png" alt="Hayari">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                   
                 </div>
                 <div class="col">
                     <img class="img-tam" src="marcas/kenzo_parfums_logo_.jpg" alt="Kenzo">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class="col">
                     <img class="img-tam" src="marcas/logo-Carolina-Herrer.png" alt="CH">
-
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
                 </div>
                 <div class="col">
                         <img class="img-tam" src="marcas/t_bvlgari-parfums-logo_5.png" alt="Bvlgari">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
                 </div>
                 <div class="col">
                     <img class="img-tam" src="marcas/t_chanel-logo_10.png" alt="Chanel">
-
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
                 </div>
             </div>
             <div class="row pt-5 pb-5">
-                <div class="col"><img class="img-tam" src="marcas/t_dior-logo_2.png" alt="dior"></div>
-                <div class="col"><img class="img-tam" src="marcas/t_giorgio-armani-logo_3.png" alt="Armani"></div>
-                <div class="col"><img class="img-tam" src="marcas/t_hugo-boss-logo_11.png" alt="hugoboss"></div>
+                <div class="col">
+                    <img class="img-tam" src="marcas/t_dior-logo_2.png" alt="dior">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Dior Homme</a></li>
+                          <li><a class="dropdown-item" href="#">Dior Homme sport</a></li>
+                          <li><a class="dropdown-item" href="#">Sauvage</a></li>
+                          <li><a class="dropdown-item" href="#">Sauvage eufotr</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col">
+                    <img class="img-tam" src="marcas/t_giorgio-armani-logo_3.png" alt="Armani">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                </div>
+                <div class="col">
+                    <img class="img-tam" src="marcas/t_hugo-boss-logo_11.png" alt="hugoboss">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                </div>
         </section>
+
+        <p>Venta  por mayor y por menor, consultenos la forma de entrega.</p>
     </main>
     <footer class="pie-pagina">
         <div class="clase-1">
@@ -87,5 +162,7 @@
         </div>
         
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
