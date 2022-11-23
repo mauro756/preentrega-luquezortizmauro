@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega2-luquez-ortiz-mauro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauro756/preentrega-luquezortizmauro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauro756/preentrega-luquezortizmauro/issues"
+  },
+  "homepage": "https://github.com/mauro756/preentrega-luquezortizmauro#readme"
+}

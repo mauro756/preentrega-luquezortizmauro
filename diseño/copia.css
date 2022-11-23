@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2? family= Kolker+Brush & display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* animaciones*/
+
+.logo {
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.3);
+}
+
+body {
+    background-color: #d1eed3;
+}
+
+    
+/*Carousel*/
+
+.container-carousel img{
+    width: 90%;
+    height: 500px;
+
+}
+
+
+h1 {
+    width: 100%;
+    background-color: #768577;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #768577;
+    display: inline-block;
+}
+
+h3 {
+    width: 100%;
+    display: inline;
+    margin: 25px 0;
+   
+    
+}
+
+/*tamaño imagenes*/
+
+.aside-img {
+    width: 400px;
+    height: 350px;
+}
+
+.img-tam {
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+}
+
+
+
+
+    /*pie-de-pagina*/
+   
+.pie-pagina {
+    width: 100%;
+    background-color: #777;
+   
+    
+
+}
+
+.pie-pagina .clase-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 300px;
+    padding: 40px 0px;
+}
+
+.pie-pagina .clase-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .clase-1 .box figure img {
+    width: 200px;
+}
+
+.pie-pagina .clase-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .clase-1 .box p {
+    color: antiquewhite;
+    margin-bottom: 15px;
+}
+
+.pie-pagina .clase-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 5px;
+    background-color: #677;
+    text-align: center;
+    transition: all 1s ease;
+
+}
+
+.pie-pagina .clase-1 .red-social a:hover {
+    color: #6a886c;
+
+}
+
+.pie-pagina .clase-2 {
+    background-color: #677;
+    padding: 15px 10px;
+    text-align: center;
+    color: antiquewhite;
+}
+@media screen and (max-width:500px){
+    .pie-pagina .clase-1 {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 20px 0px;
+       
+    }
+}
+
+/*hoja-servicios*/
+
+.img-meraki {
+    width: 400px;
+    height: 400px;
+}
+
+.mapa {
+    
+}

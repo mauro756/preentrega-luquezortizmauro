@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family= Kolker+Brush & display=swap');
+@import "footer";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* animaciones*/
+
+.logo {
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.3);
+}
+
+body {
+    background-color: #d1eed3;
+}
+
+    
+/*Carousel*/
+
+.container-carousel img{
+    width: 90%;
+    height: 500px;
+
+}
+
+
+h1 {
+    width: 100%;
+    background-color: #768577;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #768577;
+    display: inline-block;
+}
+
+h3 {
+    width: 100%;
+    display: inline;
+    margin: 25px 0;
+   
+    
+}
+
+/*tamaño imagenes*/
+
+.aside-img {
+    width: 400px;
+    height: 350px;
+}
+
+.img-tam {
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+}
+
+ /*hoja-servicios*/
+
+.img-meraki {
+    width: 400px;
+    height: 400px;
+}
+
+.mapa {
+    
+}
